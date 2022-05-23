@@ -180,7 +180,7 @@ export function 表格吸底() {
 
 export function 列分组() {
   const { dataSource, isLoading } = useProvinceDataSource()
-
+  console.log(cols,'cols');
   return (
     <WebsiteBaseTable
       isLoading={isLoading}
